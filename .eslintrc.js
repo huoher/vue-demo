@@ -8,5 +8,9 @@ module.exports = {
         'plugin:vue/vue3-essential',
         'plugin:vue/vue3-strongly-recommended',
         'plugin:vue/vue3-recommended'
-    ]
+    ],
+    rules: {
+        "vue/html-self-closing": ["off"],
+        'camelcase': 'off'
+    }
 }
