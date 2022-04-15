@@ -20,4 +20,6 @@ import HeadNavbar from "@/layout/components/HeadNavbar";
 </script>
 
 <style scoped lang="stylus">
+.el-main
+  background-color #f6f6f6
 </style>

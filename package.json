@@ -5,13 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-modern": "vue-cli-service build --modern",
+    "build-m": "vue-cli-service build --modern",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.26.1",
     "core-js": "^3.8.3",
+    "dayjs": "^1.11.0",
     "element-plus": "^2.1.8",
     "lodash": "^4.17.21",
+    "path-browserify": "^1.0.1",
     "uuid": "^8.3.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
@@ -43,6 +47,9 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {}
+  },
+  "browser": {
+    "path": false
   },
   "browserslist": [
     "> 1%",

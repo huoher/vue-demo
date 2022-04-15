@@ -1,5 +1,9 @@
 # vue-demo
 
+## 项目依赖
+- Node.js 16.14.2
+- npm 8.5.0
+
 ## Project setup
 ```
 npm install
